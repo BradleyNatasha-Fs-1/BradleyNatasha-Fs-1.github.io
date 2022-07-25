@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body class="background">
+<script type="text/javascript">
+    var backgroundColor = document.getElementsByClassName('background');
+    var color = backgroundColor[0];
+
+    color.style.backgroundColor = "#FFF1EB";
+</script>
+
+<img src="images/banner.png" alt="banner photo">
+<h1 class="Title">
+    NEW FEATURES
+</h1>
+<script type="text/javascript">
+    var colorChange = document.getElementsByClassName('Title');
+    var change = colorChange;
+
+    change.style.color = "#02111B";
+</script>
+<pre>
+
+
+</pre>
+<ul>
+    <li>WaterProof</li>
+    <li>Touch Screen</li>
+    <li>Pro or Mini Size</li>
+</ul>
+
+<pre>
+
+
+
+</pre>
+<h2 class="Title">
+  All New Look
+</h2>
+<hr>
+
+<img src="images/ad1.png" alt="ad 1">
+<img src="images/ad2.png" alt="ad 2">
+
+
+<p id="Where">Click for Availability.</p>
+
+<script type="text/javascript">
+    document.getElementById("Where").onclick = function() {myFunction()};
+
+    function myFunction() {
+        document.getElementById("Where").innerHTML = "NEAR YOU!";
+    }
+</script>
+</body>
+</html>
